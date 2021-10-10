@@ -1,5 +1,5 @@
 <html lang="en"><head>
-    <title>访问已被拦截</title>
+    <title>禁止访问</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/SereneWindCoding/Cloudflare-Pages@master/img/favicon.ico" />
@@ -659,15 +659,19 @@
     <div class="md:flex min-h-screen main-body">
         <div class="w-full md:w-1/2 bg-white flex items-center justify-center left-sec">
             <div class="max-w-sm m-8 content-body">
-                <div class="text-black text-5xl md:text-15xl font-black">访问已被拦截</div>
+                <div class="text-black text-5xl md:text-15xl font-black">禁止访问</div>
 
-                <p class="text-grey-darker text-2xl md:text-3xl mb-7 leading-normal"></p>
-                <p class="sub-header"><h1>基于防火墙安全规则，访问已被拦截！<br>请阁下尝试用正确的方式进行访问。</h1></p>
+                <p class="text-grey-darker text-2xl md:text-3xl mb-7 leading-normal">
+                    </p><p class="sub-header"><h1>您的访问被本站防火墙规则拦截。<br>如有疑问，请通过电子邮件<a href="mailto:support@renzhecloud.com">联系我们</a>。</h1></p>
+                    <span style="display:none">
+                ::CLOUDFLARE_ERROR_1000S_BOX::
+                </span>
                  <div class="sub-footer">
                     <div class="w-full h-2 bg-grey-light my-3 md:my-6"></div>
                     <ul>
                         <li>Cloudflare事件ID: ::RAY_ID::</li>
                         <li>你的IP: ::CLIENT_IP::</li>
+                        <li>你的地区：::GEO::</li>
                     </ul>
                 </div> 
 
